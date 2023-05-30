@@ -1,0 +1,25 @@
+{
+  "name": "a",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "sleep 1; exit 0;"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "nx": {
+    "namedInputs": {
+      "prod": [
+        "{projectRoot}/src/**/*"
+      ]
+    },
+    "targets": {
+      "build": {
+        "inputs": [
+          "prod"
+        ],
+        "outputs": [],
+        "dependsOn": []
+      }
+    }
+  }
+}

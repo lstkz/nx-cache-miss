@@ -1,0 +1,9 @@
+{
+  "name": "nx-cache-miss",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "nx": "16.2.2"
+  }
+}
